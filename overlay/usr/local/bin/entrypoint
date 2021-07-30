@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+pushd "${GITHUB_WORKSPACE}" >/dev/null
+    ARGS=()
+
+    if [[ -n "${INPUT_USERNAME}" ]]; then
+        export DOCKER_USER="${INPUT_USERNAME}"
+    fi
+
+    if [[ -n "${INPUT_PASSWORD}" ]]; then
+        export DOCKER_PASS="${INPUT_PASSWORD}"
+    fi
+
+    if [[ -n "${INPUT_APIKEY}" ]]; then
+        export DOCKER_APIKEY="${INPUT_APIKEY}"
+    fi
+
+    if [[ -n "${INPUT_PROVIDER}" ]]; then
+        ARGS+=(--provider "${INPUT_PROVIDER}")
+    fi
+
+    if [[ -n "${INPUT_DESCRIPTION}" ]]; then
+        ARGS+=(--short "${INPUT_DESCRIPTION}")
+    fi
+
+    if [[ -n "${INPUT_README}" ]]; then
+        ARGS+=(--file "${INPUT_README}")
+    fi
+
+    if [[ -n "${INPUT_TARGET}" ]]; then
+        ARGS+=("${INPUT_TARGET}")
+    fi
+
+    docker-pushrm --version
+    docker-pushrm "${ARGS[@]}"
+popd >/dev/null

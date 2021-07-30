@@ -1,0 +1,46 @@
+---
+name: 'pushrm'
+description: 'Push a README to DockerHub, Quay or Harbor'
+author: 'actionhippie'
+
+inputs:
+  username:
+    description: |
+      Username for DockerHub or Harbor
+    required: false
+
+  password:
+    description: |
+      Password for DockerHub or Harbor
+    required: false
+
+  apikey:
+    description: |
+      API key only used for Quay.io
+    required: false
+
+  provider:
+    description: |
+      Used provider like dockerhub, harbor or quay
+    required: false
+
+  description:
+    description: |
+      Short description to be set on the registry
+    required: false
+
+  readme:
+    description: |
+      Path to another README like README.container.md
+    required: false
+
+  target:
+    description: |
+      Target image to write the README to
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/actionhippie/pushrm'
+
+...
