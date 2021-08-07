@@ -31,7 +31,33 @@ jobs:
 
 ## Inputs
 
-TBD
+### username
+
+Username for DockerHub or Harbor
+
+### password
+
+Password for DockerHub or Harbor
+
+### apikey
+
+API key only used for Quay.io
+
+### provider
+
+Used provider like dockerhub, harbor or quay
+
+### description
+
+Short description to be set on the registry
+
+### readme
+
+Path to another README like README.container.md
+
+### target
+
+Target image to write the README to
 
 ## Outputs
 
