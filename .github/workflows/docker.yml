@@ -24,6 +24,11 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           images: ghcr.io/${{ github.repository }}
+          tags: |
+            type=ref,enable=true,event=branch
+            type=ref,enable=true,event=tag
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
           labels: |
             maintainer=Thomas Boerger <thomas@webhippie.de>
             org.opencontainers.image.title=pushrm
