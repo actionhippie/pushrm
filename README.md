@@ -31,31 +31,31 @@ jobs:
 
 ## Inputs
 
-### username
+### `username`
 
 Username for DockerHub or Harbor
 
-### password
+### `password`
 
 Password for DockerHub or Harbor
 
-### apikey
+### `apikey`
 
 API key only used for Quay.io
 
-### provider
+### `provider`
 
 Used provider like dockerhub, harbor or quay
 
-### description
+### `description`
 
 Short description to be set on the registry
 
-### readme
+### `readme`
 
 Path to another README like README.container.md
 
-### target
+### `target`
 
 Target image to write the README to
 
