@@ -7,20 +7,28 @@
     ],
     "enabledManagers": [
         "dockerfile",
-        "github-actions"
+        "github-actions",
+        "regex"
     ],
-    "dockerfile": {
-        "pinDigests": false
-    },
     "regexManagers": [{
         "fileMatch": [
             "Dockerfile"
         ],
         "matchStrings": [
-            "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)( versioning=(?<versioning>.*?))?\\nENV .*?_VERSION=\"(?<currentValue>.*)\""
-        ]
+            "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: lookupName=(?<lookupName>.+?))?(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
+        ],
+        "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }],
     "packageRules": [{
+            "description": "Strip v prefix from versions",
+            "groupName": "version prefix",
+            "matchDatasources": [
+                "github-releases",
+                "github-tags"
+            ],
+            "extractVersion": "^v(?<version>.*)$"
+        },
+        {
             "description": "Automerge docker version updates",
             "groupName": "docker updates",
             "matchDatasources": [
