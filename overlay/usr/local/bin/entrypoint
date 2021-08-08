@@ -32,6 +32,5 @@ pushd "${GITHUB_WORKSPACE}" >/dev/null
         ARGS+=("${INPUT_TARGET}")
     fi
 
-    docker-pushrm --version
     docker-pushrm "${ARGS[@]}"
 popd >/dev/null
