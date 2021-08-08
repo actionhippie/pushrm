@@ -9,7 +9,7 @@ repository:
   has_wiki: false
   has_downloads: false
 
-  default_branch: master
+  default_branch: v1
 
   allow_squash_merge: true
   allow_merge_commit: true
@@ -70,18 +70,5 @@ labels:
   - name: translation
     color: b60205
     description: Change or issue related to translations
-
-branches:
-  - name: v1
-    protection:
-      required_status_checks:
-        strict: true
-        contexts: []
-      enforce_admins: false
-      restrictions:
-        apps:
-          - renovate
-        users: []
-        teams: []
 
 ...
