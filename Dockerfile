@@ -5,12 +5,13 @@ ENV PUSHRM_VERSION="1.8.0"
 
 ARG TARGETARCH
 
-RUN apk add -U curl bash && \
+RUN apk add -U curl && \
     curl -sSLo /tmp/docker-pushrm https://github.com/christian-korneck/docker-pushrm/releases/download/v${PUSHRM_VERSION}/docker-pushrm_linux_${TARGETARCH} && \
     chmod 755 /tmp/docker-pushrm
 
 FROM alpine:3.14
 
+RUN apk add --no-cache bash
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
 COPY overlay /
 
