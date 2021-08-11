@@ -5,11 +5,6 @@
         ":semanticCommitType(deps)",
         ":automergeMinor"
     ],
-    "enabledManagers": [
-        "dockerfile",
-        "github-actions",
-        "regex"
-    ],
     "regexManagers": [{
         "fileMatch": [
             "Dockerfile"
@@ -23,8 +18,7 @@
             "description": "Strip v prefix from versions",
             "groupName": "version prefix",
             "matchDatasources": [
-                "github-releases",
-                "github-tags"
+                "github-releases"
             ],
             "extractVersion": "^v(?<version>.*)$"
         },
@@ -46,10 +40,7 @@
             "description": "Semantic commits for major updates",
             "groupName": "major updates",
             "matchDatasources": [
-                "github-releases",
-                "github-tags",
-                "go",
-                "pypi"
+                "github-releases"
             ],
             "matchUpdateTypes": [
                 "major"
@@ -62,10 +53,7 @@
             "description": "Semantic commits for minor updates",
             "groupName": "minor updates",
             "matchDatasources": [
-                "github-releases",
-                "github-tags",
-                "go",
-                "pypi"
+                "github-releases"
             ],
             "matchUpdateTypes": [
                 "minor"
@@ -78,10 +66,7 @@
             "description": "Semantic commits for patch updates",
             "groupName": "patch updates",
             "matchDatasources": [
-                "github-releases",
-                "github-tags",
-                "go",
-                "pypi"
+                "github-releases"
             ],
             "matchUpdateTypes": [
                 "patch"
