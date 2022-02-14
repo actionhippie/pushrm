@@ -1,4 +1,4 @@
-FROM alpine:3.14 as build
+FROM alpine:3.15 as build
 
 # renovate: datasource=github-releases depName=christian-korneck/docker-pushrm
 ENV PUSHRM_VERSION=1.8.0
@@ -20,7 +20,7 @@ RUN apk add -U curl && \
     esac && \
     chmod 755 /tmp/docker-pushrm
 
-FROM alpine:3.14
+FROM alpine:3.15
 
 RUN apk add --no-cache bash
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
