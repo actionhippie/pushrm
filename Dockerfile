@@ -5,7 +5,7 @@ ENV PUSHRM_VERSION=1.8.0
 
 ARG TARGETARCH
 
-RUN apk add -U curl && \
+RUN apk add --no-cache curl && \
     case "${TARGETARCH}" in \
     'amd64') \
         curl -sSLo /tmp/docker-pushrm https://github.com/christian-korneck/docker-pushrm/releases/download/v${PUSHRM_VERSION}/docker-pushrm_linux_amd64; \
