@@ -1,7 +1,7 @@
 FROM alpine:3.16 as build
 
 # renovate: datasource=github-releases depName=christian-korneck/docker-pushrm
-ENV PUSHRM_VERSION=1.8.1
+ENV PUSHRM_VERSION=1.9.0
 
 ARG TARGETARCH
 
