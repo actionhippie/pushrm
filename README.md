@@ -1,6 +1,6 @@
 # pushrm
 
-[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/pushrm?sort=semver)](https://github.com/actionhippie/pushrm) [![Docker Build](https://github.com/actionhippie/pushrm/workflows/docker/badge.svg)](https://github.com/actionhippie/pushrm/actions?query=workflow%3Adocker)
+[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/pushrm?sort=semver)](https://github.com/actionhippie/pushrm) [![Docker Build](https://github.com/actionhippie/pushrm/workflows/docker/badge.svg)](https://github.com/actionhippie/pushrm/actions/workflows/docker.yml)
 
 [GitHub Action](https://github.com/features/actions) to push a README to DockerHub, Quay or Harbor.
 
