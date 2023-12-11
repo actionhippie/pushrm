@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/actionhippie/pushrm/compare/v1.1.0...v1.2.0) (2023-12-11)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.19 ([3d1447c](https://github.com/actionhippie/pushrm/commit/3d1447c22a42828abdb32216564fa4bbd98dab78))
+
 ## [1.1.0](https://github.com/actionhippie/pushrm/compare/v1.0.0...v1.1.0) (2023-05-11)
 
 
