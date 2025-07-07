@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/actionhippie/pushrm/compare/v1.4.0...v1.5.0) (2025-07-07)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.22 ([#34](https://github.com/actionhippie/pushrm/issues/34)) ([27a3f43](https://github.com/actionhippie/pushrm/commit/27a3f434291a71edee02561fd145f08514510437))
+* replace release workflow and add workflow langserver ref ([4a90579](https://github.com/actionhippie/pushrm/commit/4a90579ba8af06bc30825f8637414215b7b15754))
+
 ## [1.4.0](https://github.com/actionhippie/pushrm/compare/v1.3.0...v1.4.0) (2024-12-09)
 
 
