@@ -1,7 +1,11 @@
 ---
-name: 'pushrm'
+# yaml-language-server: $schema=https://www.schemastore.org/github-action.json
+name: 'actionhippie-pushrm'
 description: 'Push a README to DockerHub, Quay or Harbor'
 author: 'actionhippie'
+branding:
+  icon: cast
+  color: green
 
 inputs:
   username:
