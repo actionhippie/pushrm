@@ -1,4 +1,4 @@
-FROM alpine:3.22 as build
+FROM alpine:3.22 AS build
 
 # renovate: datasource=github-releases depName=christian-korneck/docker-pushrm
 ENV PUSHRM_VERSION=1.9.0
