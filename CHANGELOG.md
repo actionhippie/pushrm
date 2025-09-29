@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/actionhippie/pushrm/compare/v1.5.0...v1.5.1) (2025-09-29)
+
+
+### Bugfixes
+
+* **deps:** pin alpine docker tag to 4bcff63 ([#37](https://github.com/actionhippie/pushrm/issues/37)) ([c80ba29](https://github.com/actionhippie/pushrm/commit/c80ba293e90bbd4b363989b79846e77d6de8bea1))
+
 ## [1.5.0](https://github.com/actionhippie/pushrm/compare/v1.4.0...v1.5.0) (2025-07-07)
 
 
