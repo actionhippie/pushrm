@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/actionhippie/pushrm/compare/v1.5.2...v1.6.0) (2025-11-10)
+
+
+### Features
+
+* integrate amd64 and arm64 support ([7e05eae](https://github.com/actionhippie/pushrm/commit/7e05eae35d9b9df099bfa82b299c4af9e22495dd))
+
 ## [1.5.2](https://github.com/actionhippie/pushrm/compare/v1.5.1...v1.5.2) (2025-10-13)
 
 ## [1.5.1](https://github.com/actionhippie/pushrm/compare/v1.5.0...v1.5.1) (2025-09-29)
