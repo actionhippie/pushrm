@@ -13,9 +13,6 @@ RUN apk add --no-cache curl && \
     'arm64') \
         curl -sSLo /tmp/docker-pushrm https://github.com/christian-korneck/docker-pushrm/releases/download/v${PUSHRM_VERSION}/docker-pushrm_linux_arm64; \
         ;; \
-    'arm') \
-        curl -sSLo /tmp/docker-pushrm https://github.com/christian-korneck/docker-pushrm/releases/download/v${PUSHRM_VERSION}/docker-pushrm_linux_arm; \
-        ;; \
     *) echo >&2 "error: unsupported architecture '${TARGETARCH}'"; exit 1 ;; \
     esac && \
     chmod 755 /tmp/docker-pushrm
