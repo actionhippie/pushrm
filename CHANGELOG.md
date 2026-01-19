@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.7.2](https://github.com/actionhippie/pushrm/compare/v1.7.1...v1.7.2) (2026-01-19)
+
+### Bugfixes
+
+* always add a v prefix to image refs on release ([e06a21f](https://github.com/actionhippie/pushrm/commit/e06a21ff86ffccd193219295d7477577b7343929))
+
+### Miscellaneous
+
+* always include single quotes for release config ([f1cd8d8](https://github.com/actionhippie/pushrm/commit/f1cd8d8adc890c6ded5faf75df87ce8568da5151))
+* **flake:** updated lockfile [skip ci] ([447f3fe](https://github.com/actionhippie/pushrm/commit/447f3fe01c0375822067c1397dac9143f924c01b))
+* **flake:** updated lockfile [skip ci] ([6efe89d](https://github.com/actionhippie/pushrm/commit/6efe89d92fa9b71d92580a2838b0d77912f2f762))
+* **flake:** updated lockfile [skip ci] ([e485379](https://github.com/actionhippie/pushrm/commit/e48537983f1654c0a1f0af791374803b3653d01c))
+* **flake:** updated lockfile [skip ci] ([4e50171](https://github.com/actionhippie/pushrm/commit/4e50171743c04f0c4a304631f0bffb884a5cb160))
+* use correct categories for releaserc to fix changelog ([72ccfba](https://github.com/actionhippie/pushrm/commit/72ccfbaa53fe6d548531f84aaf29c8ed1c67e2ec))
+
 ## [1.7.1](https://github.com/actionhippie/pushrm/compare/v1.7.0...v1.7.1) (2025-12-22)
 
 ## [1.7.0](https://github.com/actionhippie/pushrm/compare/v1.6.0...v1.7.0) (2025-12-08)
