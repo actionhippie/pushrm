@@ -108,7 +108,7 @@
                             "action.yml"
                         ],
                         "from": "'docker://ghcr.io/actionhippie/pushrm:.*'",
-                        "to": "'docker://ghcr.io/actionhippie/pushrm:${nextRelease.version}'",
+                        "to": "'docker://ghcr.io/actionhippie/pushrm:v${nextRelease.version}'",
                         "results": [
                             {
                                 "file": "action.yml",
