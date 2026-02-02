@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.7.3](https://github.com/actionhippie/pushrm/compare/v1.7.2...v1.7.3) (2026-02-02)
+
+### Dependencies
+
+* **patch:** update alpine:3.23 docker digest to 2510918 ([#60](https://github.com/actionhippie/pushrm/issues/60)) ([aec15be](https://github.com/actionhippie/pushrm/commit/aec15bedaa15ca4b2437678f3ceb041d99327c24))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([987f777](https://github.com/actionhippie/pushrm/commit/987f777b6900f3a1d30c6ce6543eb817de95cad7))
+* **flake:** updated lockfile [skip ci] ([1e0b54a](https://github.com/actionhippie/pushrm/commit/1e0b54a8607bc6a887515282ec3a5ec915488057))
+
 ## [1.7.2](https://github.com/actionhippie/pushrm/compare/v1.7.1...v1.7.2) (2026-01-19)
 
 ### Bugfixes
