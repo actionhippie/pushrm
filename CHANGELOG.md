@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.8.0](https://github.com/actionhippie/pushrm/compare/v1.7.4...v1.8.0) (2026-06-15)
+
+### Dependencies
+
+* **minor:** update alpine docker tag to v3.24 ([#69](https://github.com/actionhippie/pushrm/issues/69)) ([b845762](https://github.com/actionhippie/pushrm/commit/b845762cd99443348cc9ac86765351cfd21c9434))
+* **patch:** update docker digests ([c16e481](https://github.com/actionhippie/pushrm/commit/c16e481caeff380e70629a983ee9aa60f849e929))
+* **patch:** update docker digests ([#70](https://github.com/actionhippie/pushrm/issues/70)) ([552c2b7](https://github.com/actionhippie/pushrm/commit/552c2b7de5f451b5783716db3ddff2094ac8f8a4))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([b33d452](https://github.com/actionhippie/pushrm/commit/b33d45232ae254e5efdcbecd25f97f79251ec67f))
+* **flake:** updated lockfile [skip ci] ([da65fc7](https://github.com/actionhippie/pushrm/commit/da65fc7f193086b2f81862522103b94db14f812b))
+* **flake:** updated lockfile [skip ci] ([a4f8708](https://github.com/actionhippie/pushrm/commit/a4f87089b58269faff800c56f5e963804f14c029))
+* **flake:** updated lockfile [skip ci] ([c228038](https://github.com/actionhippie/pushrm/commit/c228038c9a5b5b3692bcac05d349a31b73c0faad))
+* **flake:** updated lockfile [skip ci] ([89dbaac](https://github.com/actionhippie/pushrm/commit/89dbaac4136b1d858ef131e08929bcd78daee4bc))
+* **flake:** updated lockfile [skip ci] ([ffb2325](https://github.com/actionhippie/pushrm/commit/ffb2325b82c1b51a4b5ff78be0b79ce6f4a229e7))
+* **flake:** updated lockfile [skip ci] ([789d3ff](https://github.com/actionhippie/pushrm/commit/789d3ff48a0ee5f2793c968e344f75c404763fda))
+* **flake:** updated lockfile [skip ci] ([6a990c1](https://github.com/actionhippie/pushrm/commit/6a990c1053a10d60c224bac85b6b0ec64743fa06))
+
 ## [1.7.4](https://github.com/actionhippie/pushrm/compare/v1.7.3...v1.7.4) (2026-04-20)
 
 ### Dependencies
