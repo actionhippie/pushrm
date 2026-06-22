@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.8.1](https://github.com/actionhippie/pushrm/compare/v1.8.0...v1.8.1) (2026-06-22)
+
+### Dependencies
+
+* **patch:** update docker digests ([#72](https://github.com/actionhippie/pushrm/issues/72)) ([4a11a9c](https://github.com/actionhippie/pushrm/commit/4a11a9c04bf05eb47f104c9c9929feb2ab66d3d3))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([211bd77](https://github.com/actionhippie/pushrm/commit/211bd772c34b12bc3112d2cfa84e6dc3bf5c6b5c))
+
 ## [1.8.0](https://github.com/actionhippie/pushrm/compare/v1.7.4...v1.8.0) (2026-06-15)
 
 ### Dependencies
